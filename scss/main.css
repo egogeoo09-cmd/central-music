@@ -193,7 +193,6 @@ nav .container .icons {
   width: 300px;
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   text-align: left;
   margin-top: 40px;
@@ -236,4 +235,66 @@ nav .container .icons {
 .popular-finds .popular-finds_card .new-products_card_colors {
   font-size: 11px;
   color: #999;
+}
+
+.gear {
+  padding: 80px 0;
+  background: #fff;
+}
+.gear .gear-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 48px;
+  position: relative;
+}
+.gear .gear-title::before {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #ff3b6b;
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.gear .gear-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  gap: 24px;
+}
+.gear .gear-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 100px;
+  width: 500px;
+}
+.gear .gear-card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+.gear .gear-card .gear-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px;
+  background-color: #EAEAEA;
+}
+.gear .gear-card .gear-info:hover {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75));
+  color: white;
+}
+.gear .gear-card .gear-info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.gear .gear-card .gear-info p {
+  font-size: 13px;
+  opacity: 0.8;
 }/*# sourceMappingURL=main.css.map */
