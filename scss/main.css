@@ -267,12 +267,12 @@ nav .container .icons {
   position: relative;
   border-radius: 12px;
   overflow: hidden;
-  height: 100px;
+  height: 500px;
   width: 500px;
 }
 .gear .gear-card img {
   width: 100%;
-  height: 300px;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   display: block;
@@ -286,7 +286,7 @@ nav .container .icons {
   background-color: #EAEAEA;
 }
 .gear .gear-card .gear-info:hover {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.75));
+  background-color: #000;
   color: white;
 }
 .gear .gear-card .gear-info h3 {
@@ -297,4 +297,53 @@ nav .container .icons {
 .gear .gear-card .gear-info p {
   font-size: 13px;
   opacity: 0.8;
+}
+
+.footer .container {
+  color: white;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+.footer .container .links {
+  display: flex;
+  gap: 80px;
+}
+.footer .container .links div h4 {
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+.footer .container .links div a {
+  display: block;
+  font-size: 13px;
+  color: #ddd;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+.footer .container .links div a:hover {
+  color: #fff;
+}
+.footer .container .brand {
+  text-align: right;
+}
+.footer .container .brand img {
+  margin-top: -40px;
+}
+.footer .container .brand .social {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.footer .container .brand .social i {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.footer .container .footer-bottom {
+  background: linear-gradient(#2b2b2b, #1f1f1f);
+  color: #aaa;
+  font-size: 12px;
+  padding: 10px 0;
+  border-top: 1px solid #444;
 }/*# sourceMappingURL=main.css.map */
