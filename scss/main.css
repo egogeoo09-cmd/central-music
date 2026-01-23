@@ -303,6 +303,7 @@ nav .container .icons {
   color: white;
   margin: 0 auto;
   max-width: 1400px;
+  background: gray;
 }
 .footer .container .links {
   display: flex;
